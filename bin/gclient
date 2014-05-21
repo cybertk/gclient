@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+# Copyright (c) 2014 Quanlong He. All rights reserved.
+# Use of this source code is governed by a BSD-style license that can be
+# found in the LICENSE file.
+
+from depot_tools import gclient
+import sys
+
+if '__main__' == __name__:
+    sys.exit(gclient.Main(sys.argv[1:]))
