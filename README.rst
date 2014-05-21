@@ -1,4 +1,3 @@
-=======
 gclient
 =======
 
@@ -7,7 +6,7 @@ gclient is a meta-checkout tool managing both subversion and git checkouts. It i
 It's extrated from Chomium's depot_tools, see http://src.chromium.org/svn/trunk/tools/depot_tools/
 
 Features
-========
+-------
 
 gclient is a python script to manage a workspace of modular dependencies that are each checked out independently from different subversion or git repositories. Features are:
 
@@ -19,7 +18,7 @@ gclient is a python script to manage a workspace of modular dependencies that ar
 
 
 .gclient file
-=============
+-------------
 
 It's the master file. It is, in fact, a python script. It specifies the following variables:
 
@@ -38,7 +37,7 @@ Each project described in the solutions array can contain an optional DEPS file 
 * safesync_url: (optional) url to fetch to retrieve the revision to sync this checkout to.
 
 .gclient example
-================
+----------------
 
 http://dev.chromium.org/developers/contributing-to-webkit explains how to hack your own .gclient file to modify the checkout to fetch from webkit's trunk instead of the version specified by chromium. 
 DEPS file
