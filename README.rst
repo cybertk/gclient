@@ -1,6 +1,9 @@
 gclient
 =======
 
+.. image:: http://img.shields.io/pypi/dm/gclient.svg
+
+
 gclient is a meta-checkout tool managing both subversion and git checkouts. It is similar to repo tool except that it works on Linux, OS X, and Windows and supports both svn and git. On the other hand, gclient doesn't integrate any code review functionality.
 
 It's extrated from Chomium's depot_tools, see http://src.chromium.org/svn/trunk/tools/depot_tools/
